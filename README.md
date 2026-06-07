@@ -22,19 +22,19 @@ An intelligent automation system that **reads your documents, understands contex
 ## 📸 Demo
 
 ### 1. Streamlit Web Interface
-![Streamlit UI](screenshot3_streamlit_ui.png)
+![Streamlit UI](streamlit_ui.png)
 
 ### 2. Upload Resume & Enter Form URL
-![Upload Resume](screenshot4_upload_resume.png)
+![Upload Resume](upload_resume.png)
 
 ### 3. AI-Generated Answers (RAG Output)
-![AI Answers](screenshot5_ai_answers.png)
+![AI Answers](generated_answers.png)
 
 ### 4. Sample Google Form (Before Filling)
-![Google Form](screenshot1_google_form.png)
+![Google Form](sample_form.png)
 
 ### 4. Selenium Auto-Filling the Form
-![Form Filled](screenshot2_form_filled.png)
+![Form Filled](selenium_autofill.png)
 
 ---
 
