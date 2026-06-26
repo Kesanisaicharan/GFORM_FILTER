@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: gform-filler
+    env: python
+    plan: free
+    
+    buildpacks:
+      - url: https://github.com/render-examples/chromium-buildpack
+
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    
+    startCommand: streamlit run form_filler.py --server.port=$PORT --server.address=0.0.0.0
+
+    envVars:
+      - key: PORT
+        value: 8000
